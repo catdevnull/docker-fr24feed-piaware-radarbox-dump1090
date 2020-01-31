@@ -2,10 +2,12 @@
 ![](https://images.microbadger.com/badges/image/thomx/fr24feed-piaware.svg)
 ![](https://images.microbadger.com/badges/version/thomx/fr24feed-piaware.svg)
 
-# Fr24feed and FlightAware with dump1090 as a Docker image
-Docker image of Fr24feed, FlightAware and dump1090.
+# Fr24feed, FlightAware, and RadarBox with dump1090 as a Docker image
+Docker image of Fr24feed, FlightAware, RadarBox and dump1090.
 
-Feed FlightRadar24 and FlightAware, allow you to see the positions of aircrafts on a map.
+Feed FlightRadar24, FlightAware and RadarBox, allow you to see the positions of aircrafts on a map.
+
+This is a fork of the excellent docker image provided by Thom-x and added RadarBox support.
 
 ![Image of dump1090 webapp](https://raw.githubusercontent.com/Thom-x/docker-fr24feed-piaware-dump1090/master/screenshot.png)
 
