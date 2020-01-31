@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Thom-x/docker-fr24feed-piaware-dump1090.svg?branch=master)](https://travis-ci.org/Thom-x/docker-fr24feed-piaware-dump1090)
+[![Build Status](https://travis-ci.org/catdevnull/docker-fr24feed-piaware-radarbox-dump1090.svg?branch=master)](https://travis-ci.org/catdevnull/docker-fr24feed-piaware-radarbox-dump1090)
 ![](https://images.microbadger.com/badges/image/thomx/fr24feed-piaware.svg)
 ![](https://images.microbadger.com/badges/version/thomx/fr24feed-piaware.svg)
 
