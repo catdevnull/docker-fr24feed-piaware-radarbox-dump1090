@@ -1,6 +1,6 @@
 FROM debian:stretch
 
-MAINTAINER maugin.thomas@gmail.com
+MAINTAINER github@catdevnull.co.uk
 
 RUN apt-get update && \
     apt-get install -y wget libusb-1.0-0-dev pkg-config ca-certificates git-core cmake build-essential --no-install-recommends && \
@@ -48,6 +48,14 @@ COPY fr24feed.ini /etc/
 
 RUN apt-get update && apt-get install -y supervisor
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+
+# RadarBox 24 (based on inst_rbfeeder.sh script)
+#RUN apt-get install dirmngr -y && \
+#    apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 1D043681 && \
+#    echo 'deb https://apt.rb24.com/ stretch main' > /etc/apt/sources.list.d/rb24.list && \
+#    apt-get update -y && apt-get install rbfeeder -y
+
+#COPY rbfeeder.ini /etc/
 
 # Add Tini
 ENV TINI_VERSION v0.18.0
